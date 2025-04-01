@@ -1,0 +1,32 @@
+nav {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  section {
+    position: absolute;
+    left: 300px;
+    width: 600px;
+  }
+  #overview {
+    top: 50px;
+  }
+  #famous {
+    top: 170px;
+  }
+  #records {
+    top: 460px;
+  }
+  #history {
+    top: 800px;
+  }
+  
