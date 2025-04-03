@@ -1,32 +1,62 @@
-nav {
-    position: absolute;
-    top: 70px;
-    left: 10px;
-  }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li {
-    margin-bottom: 5px;
-  }
-  
-  section {
-    position: absolute;
-    left: 300px;
-    width: 600px;
-  }
-  #overview {
-    top: 50px;
-  }
-  #famous {
-    top: 170px;
-  }
-  #records {
-    top: 460px;
-  }
-  #history {
-    top: 800px;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  background: #eeeeee;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #003366;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+.famous-list {
+  list-style: none;
+  padding: 0;
+}
+
+.famous-list li {
+  position: relative;
+  margin-bottom: 15px;
+  min-height: 50px;
+}
+
+.famous-list li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: auto;
+}
+
+.famous-list li span {
+  margin-left: 60px;
+  line-height: 50px; 
+  color: #003366;
+  text-emphasis: bold;
+}
